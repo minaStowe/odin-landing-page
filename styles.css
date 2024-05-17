@@ -57,11 +57,14 @@ float: right;
     font-size: 48px;
     font-style: extra-bold;
     color: #F9FAF8;
+    padding-top: 20px;
 }
 
 .row h3 {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 15px;
+    padding-left: 5px;
 }
 
 .Hero-sign-up-btn {
@@ -81,11 +84,46 @@ float: right;
   }
 
 .column1 {
-    flex: 50%;
+    flex: 50;
 }
-footer {
+
+.column1 img,
+.column1 p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+.random-section {
+    padding-bottom: 60px;
+}
+.random-section h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px;
+}
+
+.burger-quote {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1F2937;
+    font-size: 20px;
+    font-style: italic;
+}
+
+  footer {
     background-color: #1F2937;
     color: white;
     padding: 20px;
     text-align: center;
 }
+
